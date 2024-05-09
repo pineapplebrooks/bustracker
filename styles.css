@@ -11,12 +11,20 @@ h1 {
 
 .routename {
     font-family: "Raleway";
-    font-size: 24px;
+    font-size: 22px;
     text-align: center;
 }
 
 .box {
     border: 2px solid #1691cd;
     border-radius: 10px;
-    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    gap: 20px 20px;
 }
